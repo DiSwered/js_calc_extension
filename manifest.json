@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Calculator",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "content_security_policy": "script-src 'self' https://unpkg.com/mathjs@9.5.0/lib/browser/math.js; object-src 'self'"
+}

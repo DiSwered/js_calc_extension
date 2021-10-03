@@ -1,0 +1,28 @@
+body {
+    color: seagreen;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #aaa;
+    margin: 20px;
+    width: 450px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #888;
+}
+
+#input-el {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 10px;
+    width: 429px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    box-sizing: border-box;
+    background-color: #ddd;
+}
